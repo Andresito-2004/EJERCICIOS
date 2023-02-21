@@ -1,0 +1,30 @@
+
+// Traer la liberia scanner
+import java.util.Scanner;
+public class ejercicio1 {
+public static void main(String[] args) {
+    // VARIABLES
+    String  nombre;
+    int peso;
+    String Tipo;
+    int resulatdo;
+
+    //Instaciar 
+    Scanner Leer= new Scanner(System.in);
+    //SOLICITAR DATOS 
+System.out.println("Ingrese el nombre del animal: ");
+nombre=Leer.nextLine();
+System.out.println("Ingrese el tipo de animal: ");
+Tipo=Leer.nextLine();
+System.out.println("Ingrese el peso del animal: ");
+peso=Leer.nextInt();
+resulatdo= peso * 50;
+
+//MOSTRAR DATOS
+System.out.println("El nombre es "+nombre+" su tipo es "+Tipo);
+
+System.out.println("Su peso es "+peso+"& su edad es "+resulatdo+" Años ");
+
+Leer.close();
+}
+}
